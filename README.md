@@ -52,7 +52,7 @@
 
 После развёртывания стенда имеем виртуальную машину с именем DynamicWeb, на которой хостятся 5 докер контейнеров:
 
-image1
+![Image alt](https://github.com/NikPuskov/WEB/blob/main/web.JPG)
 
 Веб-сервер nginx принимает запросы по tcp портам 8081-8083, и проксирует их на сервера wordpress, node, project_app (django). Статика wordpress не проксируется, обрабатывается самим nginx.
 
